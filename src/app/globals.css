@@ -1,0 +1,51 @@
+@import "./fonts.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* color variables */
+    --simmer-main: 38, 57%, 89%, 1;
+    --simmer-yellow: 34, 94%, 54%, 1;
+
+    /* font variables */
+    --font-aciella-script: "Aciella Script";
+    --font-adelle-mono: "Adelle Mono";
+    --font-adelle-mono-flex: "Adelle Mono Flex";
+    --font-afton-james: "Afton James";
+    --font-articulat: "Articulat";
+    --font-asthetic: "Asthetic";
+    --font-bantayog: "Bantayog";
+    --font-baurems: "Baurems";
+    --font-fionas: "Fionas";
+    --font-gilroy: "Gilroy";
+    --font-imbue: "Imbue";
+    --font-lora: "Lora";
+    --font-myriad-pro: "Myriad Pro";
+    --font-nabire-1943: "Nabire 1943";
+    --font-soulcraft: "Soulcraft";
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    font-size: 16px; /* base font size */
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .debug-outline {
+    @apply bg-pink-400/10 outline-dashed outline-1 outline-pink-600;
+  }
+  .debug-border {
+    @apply border border-dashed border-black;
+  }
+}
