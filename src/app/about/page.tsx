@@ -1,11 +1,11 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 
-export default function Home() {
+export default function About() {
   return (
     <>
       <Header />
-      <main>Home Page</main>
+      <main>About Page</main>
       <Footer />
     </>
   );

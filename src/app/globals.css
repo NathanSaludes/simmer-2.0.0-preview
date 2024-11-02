@@ -10,6 +10,11 @@
     --simmer-white: 243, 231, 211;
     --simmer-yellow: 248, 154, 28;
 
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+
+    --border: 240 5.9% 90%;
+
     /* font variables */
     --font-aciella-script: "Aciella Script";
     --font-adelle-mono: "Adelle Mono";

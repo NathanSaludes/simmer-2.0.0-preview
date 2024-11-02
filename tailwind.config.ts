@@ -7,6 +7,12 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}"
   ],
   theme: {
+    container: {
+      center: true,
+      screens: {
+        "2xl": "1920px"
+      }
+    },
     extend: {
       fontFamily: {
         "aciella-script": "var(--font-aciella-script)",
@@ -26,6 +32,7 @@ const config: Config = {
         soulcraft: "var(--font-soulcraft)"
       },
       colors: {
+        border: "hsl(var(--border))",
         background: "var(--background)",
         foreground: "var(--foreground)",
         simmer: {

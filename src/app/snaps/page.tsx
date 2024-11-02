@@ -1,11 +1,11 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 
-export default function Home() {
+export default function Snaps() {
   return (
     <>
       <Header />
-      <main>Home Page</main>
+      <main>Snaps Page</main>
       <Footer />
     </>
   );
